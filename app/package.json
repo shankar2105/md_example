@@ -1,0 +1,15 @@
+{
+  "name": "mdExample",
+  "productName": "mdExample",
+  "version": "1.0.0",
+  "identifier": "net.maidsafe.examples.mdExample",
+  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "main": "./main.js",
+  "author": {
+    "name": "Maidsafe"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "safe-app": "git+https://github.com/maidsafe/safe_app_nodejs.git"
+  }
+}
