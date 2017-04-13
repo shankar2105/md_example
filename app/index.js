@@ -13,7 +13,7 @@ const store = configureStore();
 const history = syncHistoryWithStore(hashHistory, store);
 
 ipc.on('auth-response', (event, res) => {
-  store.dispatch(setMessage('Authorised. Please wait. Connecting...'));
+  store.dispatch(setMessage('Authorised with SAFE Authenticator'));
   setLocal(res);
 });
 

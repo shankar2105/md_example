@@ -12,8 +12,8 @@ export default (initialState) => {
   const enhancers = [];
 
   // Thunk Middleware
-  middleware.push(thunk);
   middleware.push(promiseMiddleware());
+  middleware.push(thunk);
 
   // Logging Middleware
   const logger = createLogger({
